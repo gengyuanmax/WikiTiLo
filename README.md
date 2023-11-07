@@ -1,4 +1,4 @@
-# WikiTiLo: Can Vision-Language Models be a Good Guesser? Exploring VLMs for Times and Location Reasoning [paper](TODO)
+# WikiTiLo: Can Vision-Language Models be a Good Guesser? Exploring VLMs for Times and Location Reasoning [paper](https://arxiv.org/abs/2307.06166)
 
 Can Vision-Language Models(VLM), which are pre-trained with large-scale image-text resources, inference the shooting location and time of a photo like human capability?
 
@@ -14,8 +14,9 @@ We evaluated three discriminative VLMs and two generative VLMs on WikiTiLo. Expe
 
 The WikiTiLo dataset[(download from huggingface repo)](https://huggingface.co/datasets/gengyuanmax/WikiTiLo/tree/main) consists of 6296 images with annotation of the specific time and country where images are taken. There are some samples from WikiTiLo above. The dataset covers 30 countries in 8 regions, and the years from 1826 to 2021. we splited 80% of the entire dataset as the training set, 10% as the validation set, and 10% as the test set. In the following charts we demonstrate all the countries and region in WikiTiLo, and the distribution of the location and time labels.
 
-![image](https://github.com/KerrieZ/images/blob/main/WikiTiLo/countries.png)
-![image](https://github.com/KerrieZ/images/blob/main/WikiTiLo/distribution.png)
+<img src="https://github.com/KerrieZ/images/blob/main/WikiTiLo/countries.png" width="500px">
+<img src="https://github.com/KerrieZ/images/blob/main/WikiTiLo/distribution.png" width="500px">
+
 
 ## Citation
 
