@@ -12,7 +12,7 @@ We evaluated three discriminative VLMs and two generative VLMs on WikiTiLo. Expe
 ## Dataset
 ![image](https://github.com/KerrieZ/images/blob/main/WikiTiLo/samples.png)
 
-The WikiTiLo dataset[(download from huggingface repo)](https://huggingface.co/datasets/gengyuanmax/WikiTiLo/tree/main) consists of 6296 images with annotation of the specific time and country where images are taken. There are some samples from WikiTiLo above. The dataset covers 30 countries in 8 regions, and the years from 1826 to 2021. we splited 80% of the entire dataset as the training set, 10% as the validation set, and 10% as the test set. In the following charts we demonstrate all the countries and region in WikiTiLo, and the distribution of the location and time labels.
+The WikiTiLo dataset[(download from huggingface repo)](https://huggingface.co/datasets/gengyuanmax/WikiTiLo/tree/main) consists of 6296 images with annotation of the specific time and country where images are taken. There are some samples from WikiTiLo above. The dataset covers 30 countries in 8 regions, and the years from 1826 to 2021. we splited 80% of the entire dataset as the training set, 10% as the validation set, and 10% as the test set. In the following charts we demonstrate all the countries and regions in WikiTiLo, and the distribution of the location and time labels.
 
 <img src="https://github.com/KerrieZ/images/blob/main/WikiTiLo/countries.png" width="500px">
 <img src="https://github.com/KerrieZ/images/blob/main/WikiTiLo/distribution.png" width="500px">
