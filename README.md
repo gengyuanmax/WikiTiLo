@@ -19,5 +19,13 @@ The WikiTiLo dataset[(download from huggingface repo)](https://huggingface.co/da
 
 
 ## Citation
-
-
+```
+@misc{zhang2023visionlanguage,
+      title={Can Vision-Language Models be a Good Guesser? Exploring VLMs for Times and Location Reasoning}, 
+      author={Gengyuan Zhang and Yurui Zhang and Kerui Zhang and Volker Tresp},
+      year={2023},
+      eprint={2307.06166},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
