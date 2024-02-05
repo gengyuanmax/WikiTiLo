@@ -1,10 +1,12 @@
 # WikiTiLo: Can Vision-Language Models Be a Good Guesser? Exploring VLMs for Times and Location Reasoning 
 
+Accepted to WACV 2024 in Waikoloa, Hawaii, USA
+
 [paper](https://arxiv.org/abs/2307.06166)
 
-Can Vision-Language Models(VLM), which are pre-trained with large-scale image-text resources, inference the shooting location and time of a photo like human capability?
+Can Vision-Language Models(VLM), which are pre-trained with large-scale image-text resources, infer the shooting location and time of a photo like human capability?
 
-To address this question, we propose a two-stage RECOGNITION & REASONING probing task applied to discriminative and generative VLMs to uncover whether VLMs can recognize times and location relevant features based on visual cues and further reason about it.
+To address this question, we propose a two-stage RECOGNITION & REASONING probing task applied to discriminative and generative VLMs to uncover whether VLMs can recognize times and location-relevant features based on visual cues and further reason about it.
 
 For this task, we construct a new dataset, WikiTiLo(**Wiki**Common **Ti**mes and **Lo**cation), which comprises images captured over a broad time range and is geographically balanced to mitigate cultural bias. The dataset has been carefully curated to ensure that each image contains distinct visual cues that align with human expert knowledge.
 
@@ -22,12 +24,12 @@ The WikiTiLo dataset[(download from huggingface repo)](https://huggingface.co/da
 
 ## Citation
 ```
-@misc{zhang2023visionlanguage,
-      title={Can Vision-Language Models be a Good Guesser? Exploring VLMs for Times and Location Reasoning}, 
-      author={Gengyuan Zhang and Yurui Zhang and Kerui Zhang and Volker Tresp},
-      year={2023},
-      eprint={2307.06166},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{zhang2024can,
+  title={Can Vision-Language Models be a Good Guesser? Exploring VLMs for Times and Location Reasoning},
+  author={Zhang, Gengyuan and Zhang, Yurui and Zhang, Kerui and Tresp, Volker},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={636--645},
+  year={2024}
 }
+
 ```
